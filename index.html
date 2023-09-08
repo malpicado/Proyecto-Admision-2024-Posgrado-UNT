@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cotizador de Servicios Especializados - Posgrado UNT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Proyecto Admisión 2024 - Posgrado UNT</h1>
+
+    <div class="container">
+      <div class="column-left">
+        <!-- Sección de Horas del Profesional -->
+        <div id="hours-section">
+          <label for="hours">Horas del Profesional (mínimo 40 horas):</label>
+          <input type="number" id="hours" min="40" />
+        </div>
+
+        <!-- Sección de Selección de Herramientas -->
+        <div id="tools-section">
+          <h2>Herramientas</h2>
+          <input type="checkbox" id="metricool" />Metricool, para gestión de
+          RRSS con análisis de comportamiento de usuarios según red<br />
+          <input type="checkbox" id="manychat" />Manychat, para Social Media
+          Automation con IA incorporada<br />
+          <input type="checkbox" id="synthesia" />Synthesia, para generación de
+          videos publicitarios con IA (30 videos de 1min o 60 videos de
+          30seg)<br />
+          <input type="checkbox" id="brand24_pro" />Brand24 Plan PRO (25 mil
+          menciones al mes y 12 keywords configurables)<br />
+          <input type="checkbox" id="brand24_team" />Brand24 Plan Team (5 mil
+          menciones al mes y 7 keywords configurables)<br />
+          <input type="checkbox" id="activeCampaign_pro" />Active Campaign Plan
+          Professional (incluye contenido y envío predictivo por IA)<br />
+          <input type="checkbox" id="activeCampaign_plus" />Active Campaign Plan
+          Plus (NO incluye contenido y envío predictivo por IA)<br />
+        </div>
+
+        <!-- Sección de Tipo de Cambio -->
+        <div id="exchange-rate-section">
+          <label for="exchangeRate">Tipo de Cambio (USD a PEN):</label>
+          <input type="number" id="exchangeRate" step="0.0001" />
+        </div>
+      </div>
+
+      <div class="column-right">
+        <!-- Sección de Cuota de Prospectos y Clientes -->
+        <div id="quota-section">
+          <label for="prospects">Prospectos:</label>
+          <input type="number" id="prospects" />
+          <label for="clients">Clientes:</label>
+          <input type="number" id="clients" />
+        </div>
+
+        <!-- Sección de Resultados -->
+        <div id="results-section">
+          <h2>Resultados</h2>
+          <!-- Aquí se mostrarán los resultados -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección de Créditos -->
+<div id="credits-section">
+    <p>Aplicación desarrollada por Jordan Malpica para la Escuela de Posgrado UNT</p>
+    <img src="logo-posgrado-unt-2.png" alt="Logo de la UNT" id="unt-logo">
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

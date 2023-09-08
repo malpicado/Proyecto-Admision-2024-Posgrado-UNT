@@ -1,0 +1,126 @@
+/* Estilos para la columna izquierda */
+.column-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .column-left > div {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #E6AD09;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los inputs de la columna izquierda */
+  .column-left input[type="number"],
+  .column-left input[type="checkbox"] {
+    margin: 10px 0;
+  }
+  
+  /* Estilos para las etiquetas de la columna izquierda */
+  .column-left label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para la columna derecha */
+.column-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .column-right > div {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #E6AD09;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los inputs de la columna derecha */
+  .column-right input[type="number"],
+  .column-right input[type="checkbox"] {
+    margin: 10px 0;
+  }
+  
+  /* Estilos para las etiquetas de la columna derecha */
+  .column-right label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para los párrafos de la columna derecha */
+  .column-right p {
+    color: #000; /* Cambiamos el color del texto a negro para que sea legible */
+  }
+  
+  /* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para la columna izquierda */
+  .column-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Estilos para la columna derecha */
+  .column-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+
+  /* Estilos generales */
+body {
+    background-color: #12377B;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Estilos para los títulos */
+  h1, h2, h3 {
+    color: #E6AD09;
+  }
+  
+  /* Estilos para los párrafos */
+  .column-right p {
+    color: #000; /* Cambiamos el color del texto a negro para que sea legible */
+  }
+  
+  /* Estilos para las secciones de entrada de datos */
+  .column-left > div,
+  .column-right > div {
+    border: 2px solid #E6AD09;
+  }
+  
+  /* Estilos para los párrafos generales (fuera de las columnas) */
+  p {
+    color: #fff;
+  }
+
+  #results-section {
+    max-height: calc(100vh - 275px); /* Ajusta según tus necesidades */
+    overflow-y: auto;
+  }
+
+  /* Estilos para la sección de créditos */
+#credits-section {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #E6AD09;  /* Color del texto */
+  }
+  
+  /* Estilos para el logo de la UNT */
+  #unt-logo {
+    width: 100px;  /* Ancho del logo */
+    margin-top: 10px;
+  }
+  
