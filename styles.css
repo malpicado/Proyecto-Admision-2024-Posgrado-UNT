@@ -123,4 +123,28 @@ body {
     width: 100px;  /* Ancho del logo */
     margin-top: 10px;
   }
-  
+
+/* Estilos para los inputs de la sección de presupuesto para Ads */
+#ads-budget-section input[type="number"] {
+  margin: 10px 0;
+}
+
+
+/* Estilos para los contenedores de los inputs */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los labels dentro de los contenedores */
+.input-group label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Estilos para los inputs dentro de los contenedores */
+.input-group input[type="number"] {
+  flex: 1;
+}
